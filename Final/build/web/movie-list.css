@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: #365466;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 10%;
+}
+a.main{
+    float: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: white;
+    font-size: 15px;
+}
+footer{
+    background-color: #bfbfbf;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-left: 20px;
+}
+h1{
+    padding-top: 10%;
+}
+table{
+    padding-top: 100px;
+}
