@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movies Cruiser</title>
+<link rel="stylesheet" href="movie-list-admin.css">
+</head>
+<body>
+	<div id="header" style="height:80px;">
+		 Movie Cruiser
+		<img src="movie-tape.jpg" height="40px" width="40px">
+		<label style="float:right; font-size:15px;"><a href="#" class="header-links">Movies</a></label>
+	</div><BR><BR>
+	<div class="edit-container" style="text-align:center;">
+		<h2 class="align-self-start">Edit Movie</h2><BR><BR>
+		<form>
+		<div class="column-12">
+			<label>Title : </label> <input type="text" name="title"/>
+		</div><BR><BR>
+		<div class="column-3">
+			<div class="column">
+				<label>Gross($) : </label> <input type="text" name="box_office"/>
+			</div><BR><BR>
+			<div class="column">
+				<label>Active : </label> <input type="radio" name="active" value="Yes"/>Yes <input type="radio" name="active" value="No"/>No
+			</div><BR><BR>
+			<div class="column">
+				<label>Date of Launch : </label> <input type="text" name="d_o_l" />
+			</div><BR><BR>
+			<div class="column">
+				<label>Genre : </label> <select name="genre">
+					<option value="Superhero">Superhero</option>
+					<option value="Science Fiction">Science Fiction</option>
+					<option value="Romance">Romance</option>
+					<option value="Comedy">Comedy</option>
+					<option value="Adventure">Adventure</option>
+					<option value="Thriller">Thriller</option>
+				</select>
+			</div>
+		</div><BR><BR>
+		<div class="align-self-start">
+			<input type="checkbox" name="teaser" /> Has Teaser
+		</div><BR><BR>
+		</form>
+		<button type="button" class="btn-save align-self-start" onclick="save()">SAVE</button>
+	</div>
+	<footer>
+		Copyright &copy; 2019
+	</footer>
+	<script src="movie-list-admin.js"></script>
+</body>
+</html>
